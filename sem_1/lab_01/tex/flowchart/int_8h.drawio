@@ -1,0 +1,392 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8" pages="2">
+  <diagram id="Kqhuzc1SFH5KUycVq5XX" name="Страница 1">
+    <mxGraphModel dx="923" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-5" target="RJBo8c4zO3BuUmwKjxPN-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-5" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Начало&lt;/p&gt;" style="shape=stencil(vZXxboMgEMafhj9dUNwDLG57j9NelRTBIKv27YegWdHq1s3OmJD7Dn/3nZyRsKytoEGSUAk1EvZKkiTHkku7WrHySkp92PkwnmJoGyyMF8+gOeQCfaY1Wp2w4wczIrisUHMzZNkboS92z3CzrFBSWghXsg0yV3kLAy7ts7T3sLH8JYgay6/RoB5NepUk7z/HPj0/Bhw/yG+Indzv7nc/cOg4ftTB7QaOf49lmVXWhptlORSnUqsPebhp5siFKJRQ2oZ+dbVIwuh4bTfTwPDhLRJTulZn/OpydizpJntCgC5WCWOkZ1l9CWMBusTIgqKjgDJ4m22H2CzlPoKet5FWBoaXGlTbtiu4vOo4vm34jo7nhPQPPdN/6fmuU3bTuxgip65Mrp1ZpfGbkfa/hY2qqxtc6UUFp/o/mBM+AQ==);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1014.75" y="-330.11" width="146" height="41.71" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-7" target="RJBo8c4zO3BuUmwKjxPN-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-7" value="Вызов подпрограммы sub_3" style="shape=stencil(tVVRboQgED0Nvw1Ce4DGtvdg2Wkli0CA7ra37wiSrFHcdqvGxMx78uYN4yDhbeiEA8KoET0Q/kIYcx6ctxJCwACZLsOPNIeXHDYlFsGBjBk8C6/EQUNmQvT2BBd1jKOEMh14FQeWvxL6jO8MN2+lNQZFlDVhwlzxKCaUwbX0K4uN6b8nkUP9HiL40WRGCXv7vezD0z7CzU5+p7LF/eZ+txOeOm72atxmws39srxFpPZx8/Yg5OnD209zXDTzrrSWVluPYX6mXIRxOl7rxTgxDN6MKLQfxnZ9nG6Mfi0x4rPcCa0UjKVaDzd2Ip8m95fb2zNcNXWx3mXpoqCVqSus70nFBP+/C/4XG8utKVx1h9OyWYsSmn8fCfgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="1014.75" y="-250.11" width="146" height="41.71" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-9" target="RJBo8c4zO3BuUmwKjxPN-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-9" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Сохранить значения регистров ES, DS, AX, DX&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1014.75" y="-180.11" width="146" height="41.71" as="geometry" />
+        </mxCell>
+        <mxCell id="k8XYdDQ-z8DJipctlDyX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RJBo8c4zO3BuUmwKjxPN-12" target="RJBo8c4zO3BuUmwKjxPN-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-12" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Инкремент старшего слова счетчика реального времени&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="141.70999999999998" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-14" target="RJBo8c4zO3BuUmwKjxPN-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-14" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Обнулить 4 байта счетчика реального времени&amp;nbsp;по адресу 0040:006Ch&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="-160.10999999999999" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-16" target="RJBo8c4zO3BuUmwKjxPN-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-16" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Установить значение 1 по адресу DS:0070h&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="-90.10999999999999" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=7;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-44" target="RJBo8c4zO3BuUmwKjxPN-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-18" target="RJBo8c4zO3BuUmwKjxPN-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-18" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Декремент счетчика времени до отключения моторчика дисковода по адресу DS:0040h&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2034.5" y="-259.81999999999994" width="139" height="39.71" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-21" target="RJBo8c4zO3BuUmwKjxPN-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2212" y="-170" />
+            </Array>
+            <mxPoint x="2180" y="-160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-21" target="RJBo8c4zO3BuUmwKjxPN-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2101.93" y="58.28999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1996" y="-170" />
+              <mxPoint x="1996" y="-20" />
+              <mxPoint x="2102" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-21" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Значение&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;счетчика времени до отключения моторчика дисковода равно 0?&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="shape=stencil(tZTdboQgEIWfhtsGYZu9bmz7HixOK1kEA3S3ffsdAdu1/rQxakx0zuA3B0YgvPS1aIEwakQDhD8TxiqQyitr8BX1OokHmsJrCos+Fr4FGZJ4EU6Jk4aU8cHZM1xVFTJCmRqcCl2WvxD6hGO6m5fSGoMQLOkHmbs8woQy+C39TLBc/msQtchvIIDLJpNK2Ov/sQ+P+4CLnfwOsb37zf1uBx46LvZq3GbgYj2Wl6jM/dy8PAl5fnf2w1STZt6U1tJq6zBMz1iLME7ztTyZVnQbb5To0429wM8sj5P7aRrdE7Qyd4TvEyEj1jB+uTisQKwxIbX1sLCSqI8WM6ozHcTeWQd/tDYdjwtVZwfE0qMKUU2HeRRu);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=20;spacingRight=20;" parent="1" vertex="1">
+          <mxGeometry x="2034.5" y="-190.10999999999999" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-23" target="RJBo8c4zO3BuUmwKjxPN-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-23" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Сбросить флаг работы моторчика дисковода по адресу DS:003Fh&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2141.93" y="-141.71" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-25" target="RJBo8c4zO3BuUmwKjxPN-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2212" y="-20" />
+              <mxPoint x="2102" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-25" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Отправить команду 0Ch отключения моторчика дисковода в порт 3F2h&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2141.93" y="-71.71" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-28" target="RJBo8c4zO3BuUmwKjxPN-115" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-28" target="9QjsMo32YtTgQfwNG3Pa-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-28" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Установлен ли флаг PF по адресу 0040:0314h?&lt;/font&gt;&lt;/p&gt;" style="shape=stencil(tZTdboQgEIWfhtsGYZu9bmz7HixOK1kEA3S3ffsdAdu1/rQxakx0zuA3B0YgvPS1aIEwakQDhD8TxiqQyitr8BX1OokHmsJrCos+Fr4FGZJ4EU6Jk4aU8cHZM1xVFTJCmRqcCl2WvxD6hGO6m5fSGoMQLOkHmbs8woQy+C39TLBc/msQtchvIIDLJpNK2Ov/sQ+P+4CLnfwOsb37zf1uBx46LvZq3GbgYj2Wl6jM/dy8PAl5fnf2w1STZt6U1tJq6zBMz1iLME7ztTyZVnQbb5To0429wM8sj5P7aRrdE7Qyd4TvEyEj1jB+uTisQKwxIbX1sLCSqI8WM6ozHcTeWQd/tDYdjwtVZwfE0qMKUU2HeRRu);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=20;spacingRight=20;" parent="1" vertex="1">
+          <mxGeometry x="2031.9299999999998" y="68.28999999999999" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-30" target="RJBo8c4zO3BuUmwKjxPN-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2643.87" y="-110.00000000000003" />
+              <mxPoint x="2534.87" y="-110.00000000000003" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-30" value="INT 1Ch" style="shape=stencil(tVVRboQgED0Nvw1Ce4DGtvdg2Wkli0CA7ra37wiSrFHcdqvGxMx78uYN4yDhbeiEA8KoET0Q/kIYcx6ctxJCwACZLsOPNIeXHDYlFsGBjBk8C6/EQUNmQvT2BBd1jKOEMh14FQeWvxL6jO8MN2+lNQZFlDVhwlzxKCaUwbX0K4uN6b8nkUP9HiL40WRGCXv7vezD0z7CzU5+p7LF/eZ+txOeOm72atxmws39srxFpPZx8/Yg5OnD209zXDTzrrSWVluPYX6mXIRxOl7rxTgxDN6MKLQfxnZ9nG6Mfi0x4rPcCa0UjKVaDzd2Ip8m95fb2zNcNXWx3mXpoqCVqSus70nFBP+/C/4XG8utKVx1h9OyWYsSmn8fCfgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="2573.75" y="-228.29000000000008" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-32" target="RJBo8c4zO3BuUmwKjxPN-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2429.87" y="-110.00000000000003" />
+              <mxPoint x="2534.87" y="-110.00000000000003" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-32" value="Косвенный вызов 1Ch" style="shape=stencil(tVVRboQgED0Nvw1Ce4DGtvdg2Wkli0CA7ra37wiSrFHcdqvGxMx78uYN4yDhbeiEA8KoET0Q/kIYcx6ctxJCwACZLsOPNIeXHDYlFsGBjBk8C6/EQUNmQvT2BBd1jKOEMh14FQeWvxL6jO8MN2+lNQZFlDVhwlzxKCaUwbX0K4uN6b8nkUP9HiL40WRGCXv7vezD0z7CzU5+p7LF/eZ+txOeOm72atxmws39srxFpPZx8/Yg5OnD209zXDTzrrSWVluPYX6mXIRxOl7rxTgxDN6MKLQfxnZ9nG6Mfi0x4rPcCa0UjKVaDzd2Ip8m95fb2zNcNXWx3mXpoqCVqSus70nFBP+/C/4XG8utKVx1h9OyWYsSmn8fCfgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="2360" y="-160.1100000000001" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-34" target="RJBo8c4zO3BuUmwKjxPN-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-34" value="Вызов подпрограммы sub_3" style="shape=stencil(tVVRboQgED0Nvw1Ce4DGtvdg2Wkli0CA7ra37wiSrFHcdqvGxMx78uYN4yDhbeiEA8KoET0Q/kIYcx6ctxJCwACZLsOPNIeXHDYlFsGBjBk8C6/EQUNmQvT2BBd1jKOEMh14FQeWvxL6jO8MN2+lNQZFlDVhwlzxKCaUwbX0K4uN6b8nkUP9HiL40WRGCXv7vezD0z7CzU5+p7LF/eZ+txOeOm72atxmws39srxFpPZx8/Yg5OnD209zXDTzrrSWVluPYX6mXIRxOl7rxTgxDN6MKLQfxnZ9nG6Mfi0x4rPcCa0UjKVaDzd2Ip8m95fb2zNcNXWx3mXpoqCVqSus70nFBP+/C/4XG8utKVx1h9OyWYsSmn8fCfgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=10;spacingRight=10;" parent="1" vertex="1">
+          <mxGeometry x="2465.25" y="-90.11000000000004" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-36" target="RJBo8c4zO3BuUmwKjxPN-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-36" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Отправить команду&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;20h в порт 20h для&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;сброса контроллера прерываний&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2465.25" y="-18.290000000000077" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-38" target="RJBo8c4zO3BuUmwKjxPN-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2537.6200000000003" y="122.70999999999987" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-38" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Восстановить значения регистров ES, DS, AX, DX&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2465.25" y="51.70999999999992" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8XYdDQ-z8DJipctlDyX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RJBo8c4zO3BuUmwKjxPN-40" target="k8XYdDQ-z8DJipctlDyX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-40" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Поместить в DS значение 0040h&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1014.74" y="-113.42" width="146" height="41.71" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-42" target="RJBo8c4zO3BuUmwKjxPN-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1846" y="30" />
+              <mxPoint x="1730" y="30" />
+              <mxPoint x="1730" y="40" />
+              <mxPoint x="1615" y="40" />
+            </Array>
+            <mxPoint x="1710" y="205.1948474702381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-42" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Установить в 3 бит регистра AL значение 1&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="-20.109999999999978" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-44" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Сохранить значение регистра AX&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1545.25" y="60.890000000000015" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-46" target="RJBo8c4zO3BuUmwKjxPN-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-46" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Восстановить значение регистра AX&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2031.9299999999998" y="-1.709999999999992" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-79" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Конец&lt;/p&gt;" style="shape=stencil(vZXxboMgEMafhj9dUNwDLG57j6u9KimCQVbt2w9Bs6LVrZvOmJj7PvzdHZyRsKwpoUaSUAkVEvZKksSgrrgEo7QNrFN6OaU+bH0YjzE0NebGixfQHA4CvdMYrc7Y8qMZEFyWqLnpXfZG6Itd098sy5WUFsKVbALnxrcw4NK+SzsPG9Jfg6i2/AptB0ORXiXJ+8+xT8/7gOOd6g2xY/Wb17sdOKw43uvgNgPHv8eyzCpLw82yA+TnQqsPebxbzIkLkSvRf4fUP10ukjA6XOvN1NB/eDNjtCt1wa8uJ8eSrrJHBOh8kTBEeuLqaxgL0AVGFhSdBBTBbjYtYj2Xuwg63kRaGeg3Nci2Xq7g8qbj+H7BD3Q8JaR/6Jn+S88PnbKb3tkQOXVhcu3MKo3fjLT/LaxkXVzgUs8yONX/xpzwCQ==);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2465.2500000000005" y="121.70999999999995" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8XYdDQ-z8DJipctlDyX-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RJBo8c4zO3BuUmwKjxPN-95" target="RJBo8c4zO3BuUmwKjxPN-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-95" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Инкремент младшего слова счетчика реального времени по адресу 0040:006Ch&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="1014.74" y="19.18" width="146" height="41.71" as="geometry" />
+        </mxCell>
+        <mxCell id="k8XYdDQ-z8DJipctlDyX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RJBo8c4zO3BuUmwKjxPN-98" target="RJBo8c4zO3BuUmwKjxPN-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="937.5699999999997" y="108.34500000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="108" />
+              <mxPoint x="990" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k8XYdDQ-z8DJipctlDyX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RJBo8c4zO3BuUmwKjxPN-98" target="RJBo8c4zO3BuUmwKjxPN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-98" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Младшее слово счетчика реального времени равно 0?&lt;/font&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="shape=stencil(tZTdboQgEIWfhtsGYZu9bmz7HixOK1kEA3S3ffsdAdu1/rQxakx0zuA3B0YgvPS1aIEwakQDhD8TxiqQyitr8BX1OokHmsJrCos+Fr4FGZJ4EU6Jk4aU8cHZM1xVFTJCmRqcCl2WvxD6hGO6m5fSGoMQLOkHmbs8woQy+C39TLBc/msQtchvIIDLJpNK2Ov/sQ+P+4CLnfwOsb37zf1uBx46LvZq3GbgYj2Wl6jM/dy8PAl5fnf2w1STZt6U1tJq6zBMz1iLME7ztTyZVnQbb5To0429wM8sj5P7aRrdE7Qyd4TvEyEj1jB+uTisQKwxIbX1sLCSqI8WM6ozHcTeWQd/tDYdjwtVZwfE0qMKUU2HeRRu);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=20;spacingRight=20;" parent="1" vertex="1">
+          <mxGeometry x="1017.5699999999999" y="88.29" width="140.37" height="40.11" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-101" target="RJBo8c4zO3BuUmwKjxPN-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="-238" />
+              <mxPoint x="1500" y="40" />
+              <mxPoint x="1615" y="40" />
+            </Array>
+            <mxPoint x="1770" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-101" target="RJBo8c4zO3BuUmwKjxPN-104" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1726" y="-237.82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-101" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Младшее слово&lt;/span&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;счетчика&amp;nbsp;&lt;/span&gt;реального времени равно&lt;span style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;24?&lt;/span&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="shape=stencil(tZTdboQgEIWfhtsGYZu9bmz7HixOK1kEA3S3ffsdAdu1/rQxakx0zuA3B0YgvPS1aIEwakQDhD8TxiqQyitr8BX1OokHmsJrCos+Fr4FGZJ4EU6Jk4aU8cHZM1xVFTJCmRqcCl2WvxD6hGO6m5fSGoMQLOkHmbs8woQy+C39TLBc/msQtchvIIDLJpNK2Ov/sQ+P+4CLnfwOsb37zf1uBx46LvZq3GbgYj2Wl6jM/dy8PAl5fnf2w1STZt6U1tJq6zBMz1iLME7ztTyZVnQbb5To0429wM8sj5P7aRrdE7Qyd4TvEyEj1jB+uTisQKwxIbX1sLCSqI8WM6ozHcTeWQd/tDYdjwtVZwfE0qMKUU2HeRRu);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=20;spacingRight=20;" parent="1" vertex="1">
+          <mxGeometry x="1540.75" y="-258.82" width="144.5" height="41.29" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-104" target="RJBo8c4zO3BuUmwKjxPN-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="-188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-104" target="RJBo8c4zO3BuUmwKjxPN-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1610" y="-188" />
+              <mxPoint x="1610" y="30" />
+              <mxPoint x="1730" y="30" />
+              <mxPoint x="1730" y="40" />
+              <mxPoint x="1615" y="40" />
+            </Array>
+            <mxPoint x="1660" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-104" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Старшее слово&lt;/span&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;счетчика&amp;nbsp;&lt;/span&gt;реального времени&lt;span style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;равно&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;176?&lt;/span&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;" style="shape=stencil(tZTdboQgEIWfhtsGYZu9bmz7HixOK1kEA3S3ffsdAdu1/rQxakx0zuA3B0YgvPS1aIEwakQDhD8TxiqQyitr8BX1OokHmsJrCos+Fr4FGZJ4EU6Jk4aU8cHZM1xVFTJCmRqcCl2WvxD6hGO6m5fSGoMQLOkHmbs8woQy+C39TLBc/msQtchvIIDLJpNK2Ov/sQ+P+4CLnfwOsb37zf1uBx46LvZq3GbgYj2Wl6jM/dy8PAl5fnf2w1STZt6U1tJq6zBMz1iLME7ztTyZVnQbb5To0429wM8sj5P7aRrdE7Qyd4TvEyEj1jB+uTisQKwxIbX1sLCSqI8WM6ozHcTeWQd/tDYdjwtVZwfE0qMKUU2HeRRu);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=20;spacingRight=20;" parent="1" vertex="1">
+          <mxGeometry x="1653.75" y="-208.82" width="144.5" height="41.29" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-108" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;А&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="1067.74" y="200" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-109" target="RJBo8c4zO3BuUmwKjxPN-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-109" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;А&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="1592.3500000000001" y="-330.11" width="41.29" height="41.29" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-111" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Б&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="1595.25" y="130" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-113" target="RJBo8c4zO3BuUmwKjxPN-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-113" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Б&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="2084" y="-330.10999999999996" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-115" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;В&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="121.71000000000004" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RJBo8c4zO3BuUmwKjxPN-117" target="RJBo8c4zO3BuUmwKjxPN-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RJBo8c4zO3BuUmwKjxPN-117" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Г&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="2623.75" y="-300.1099999999999" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nfUs0vsP6fbJqO1xP7mq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=7;" parent="1" source="nfUs0vsP6fbJqO1xP7mq-2" target="RJBo8c4zO3BuUmwKjxPN-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfUs0vsP6fbJqO1xP7mq-2" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Сохранить значение регистра FLAGS&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="2360" y="-228.29000000000008" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Nn1wzYVGeCBZs6BGPKdm-1" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1160.75" y="84.03999999999992" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nn1wzYVGeCBZs6BGPKdm-2" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="-260.11000000000007" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nn1wzYVGeCBZs6BGPKdm-3" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1810" y="-210.11000000000004" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nn1wzYVGeCBZs6BGPKdm-4" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2180" y="-197.53000000000003" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nn1wzYVGeCBZs6BGPKdm-5" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2171.31" y="60.88999999999995" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-3" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Г&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="2180" y="119.89000000000004" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9QjsMo32YtTgQfwNG3Pa-6" target="nfUs0vsP6fbJqO1xP7mq-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9QjsMo32YtTgQfwNG3Pa-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;В&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;direction=south;" parent="1" vertex="1">
+          <mxGeometry x="2410" y="-300.1099999999999" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8XYdDQ-z8DJipctlDyX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k8XYdDQ-z8DJipctlDyX-2" target="RJBo8c4zO3BuUmwKjxPN-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k8XYdDQ-z8DJipctlDyX-2" value="&lt;p style=&quot;line-height: 1; font-size: 7px;&quot;&gt;Поместить в ES значение 0000&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=7;spacingBottom=4;" vertex="1" parent="1">
+          <mxGeometry x="1014.74" y="-50.11000000000001" width="146" height="41.71" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2H0T3GW8cqRuoenOmYkU" name="Страница 2">
+    <mxGraphModel dx="1247" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="n_K7R531CKmP_X3LuHY0-1" target="cls5CdKCTZ_HUPuu087s-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n_K7R531CKmP_X3LuHY0-1" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Сохранить значения регистров DS и AX&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1220" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="cls5CdKCTZ_HUPuu087s-1" target="polrYLIrJeZ-9tSIvU4V-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cls5CdKCTZ_HUPuu087s-1" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Установить значение сегментного регистра DS (0040h)&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1290" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="polrYLIrJeZ-9tSIvU4V-1" target="qKXYZx18aSAKi8AqlQNf-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="polrYLIrJeZ-9tSIvU4V-1" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Записать младший байт регистра FLAGS в AH&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1360" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="qKXYZx18aSAKi8AqlQNf-1" target="8QDtUdhzfg7S7EeFi36L-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="qKXYZx18aSAKi8AqlQNf-1" target="qKXYZx18aSAKi8AqlQNf-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKXYZx18aSAKi8AqlQNf-1" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Установлен ли&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;DF и старший бит IOPL по адресу 0040:0314h?&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/p&gt;" style="shape=stencil(tZTdboQgEIWfhtsGYZu9bmz7HixOK1kEA3S3ffsdAdu1/rQxakx0zuA3B0YgvPS1aIEwakQDhD8TxiqQyitr8BX1OokHmsJrCos+Fr4FGZJ4EU6Jk4aU8cHZM1xVFTJCmRqcCl2WvxD6hGO6m5fSGoMQLOkHmbs8woQy+C39TLBc/msQtchvIIDLJpNK2Ov/sQ+P+4CLnfwOsb37zf1uBx46LvZq3GbgYj2Wl6jM/dy8PAl5fnf2w1STZt6U1tJq6zBMz1iLME7ztTyZVnQbb5To0429wM8sj5P7aRrdE7Qyd4TvEyEj1jB+uTisQKwxIbX1sLCSqI8WM6ozHcTeWQd/tDYdjwtVZwfE0qMKUU2HeRRu);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;rounded=0;shadow=0;sketch=0;spacingLeft=20;spacingRight=20;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1430" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" parent="1" source="qKXYZx18aSAKi8AqlQNf-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="1530" />
+              <mxPoint x="370" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKXYZx18aSAKi8AqlQNf-2" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;CLI&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="400" y="1480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="8QDtUdhzfg7S7EeFi36L-1" target="F2D188wxbFncChL3h0t1-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1530" />
+              <mxPoint x="370" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8QDtUdhzfg7S7EeFi36L-1" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Сброс IF по адресу 0040:0314h&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1480" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="F2D188wxbFncChL3h0t1-1" target="F2D188wxbFncChL3h0t1-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2D188wxbFncChL3h0t1-1" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Записать значение регистра AH в младший байт регистра FLAGS&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1550" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="F2D188wxbFncChL3h0t1-2" target="F2D188wxbFncChL3h0t1-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2D188wxbFncChL3h0t1-2" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Восстановить значения регистров DS и AX&lt;/p&gt;" style="shape=stencil(tVTRboMwDPyavFYh2T5gYtt/pKlXotIkcrJ1/fuaGKQiBq0mQEjgu3B3Bhyh69SYCEJJb84g9LtQKmKwkBLdEdww9iK5vHBZDbVJEWxm8MegM/sWmEkZwwku7pB7CecbQJc7Vn8I+UZrulPXNnhPIi74NGLueBIzztOz8pfFevvrqIqkf4YM2IdkVKjP52V3r9sIVxvlHcsO6VfPu57wOHG11YdbTbj6v6yuCZn7uXW9N/Z0xPDtD3+G+XJta0MbkEq+Fi+htOyP5Wai6QZvQgw0dmO7PE4PRn/OmPCJd0FnGqZWA8KDN8G7yYLr7IJiPXEoKG99BbgB);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1620" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aPBZ1P4RprYO_DfbTpCW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" parent="1" source="F2D188wxbFncChL3h0t1-3" target="n_K7R531CKmP_X3LuHY0-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2D188wxbFncChL3h0t1-3" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Начало&lt;/p&gt;" style="shape=stencil(vZXxboMgEMafhj9dUNwDLG57j6u9KimCQVbt2w9Bs6LVrZvOmJj7PvzdHZyRsKwpoUaSUAkVEvZKksSgrrgEo7QNrFN6OaU+bH0YjzE0NebGixfQHA4CvdMYrc7Y8qMZEFyWqLnpXfZG6Itd098sy5WUFsKVbALnxrcw4NK+SzsPG9Jfg6i2/AptB0ORXiXJ+8+xT8/7gOOd6g2xY/Wb17sdOKw43uvgNgPHv8eyzCpLw82yA+TnQqsPebxbzIkLkSvRf4fUP10ukjA6XOvN1NB/eDNjtCt1wa8uJ8eSrrJHBOh8kTBEeuLqaxgL0AVGFhSdBBTBbjYtYj2Xuwg63kRaGeg3Nci2Xq7g8qbj+H7BD3Q8JaR/6Jn+S88PnbKb3tkQOXVhcu3MKo3fjLT/LaxkXVzgUs8yONX/xpzwCQ==);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F2D188wxbFncChL3h0t1-4" value="&lt;p style=&quot;line-height: 1; font-size: 8px;&quot;&gt;Конец&lt;/p&gt;" style="shape=stencil(vZXxboMgEMafhj9dUNwDLG57j6u9KimCQVbt2w9Bs6LVrZvOmJj7PvzdHZyRsKwpoUaSUAkVEvZKksSgrrgEo7QNrFN6OaU+bH0YjzE0NebGixfQHA4CvdMYrc7Y8qMZEFyWqLnpXfZG6Itd098sy5WUFsKVbALnxrcw4NK+SzsPG9Jfg6i2/AptB0ORXiXJ+8+xT8/7gOOd6g2xY/Wb17sdOKw43uvgNgPHv8eyzCpLw82yA+TnQqsPebxbzIkLkSvRf4fUP10ukjA6XOvN1NB/eDNjtCt1wa8uJ8eSrrJHBOh8kTBEeuLqaxgL0AVGFhSdBBTBbjYtYj2Xuwg63kRaGeg3Nci2Xq7g8qbj+H7BD3Q8JaR/6Jn+S88PnbKb3tkQOXVhcu3MKo3fjLT/LaxkXVzgUs8yONX/xpzwCQ==);whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=8;spacingBottom=4;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1690" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u4TT6KJhKsmjodL6pl31-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Да&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="435" y="1425" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
