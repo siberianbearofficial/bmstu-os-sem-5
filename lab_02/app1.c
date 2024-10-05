@@ -9,27 +9,27 @@ double volume(double a, double b, double c)
 
 int main(void) {
     double a;
-    printf("%d - введите длину прямоугольного параллелепипеда: ", getpid());
+    printf("%d - enter length: ", getpid());
     if (scanf("%lf", &a) != 1) {
-        printf("%d - Error: некорректный ввод\n", getpid());
+        printf("%d - Error: invalid input\n", getpid());
         return EXIT_FAILURE;
     }
 
     double b;
-    printf("%d - введите ширину прямоугольного параллелепипеда: ", getpid());
+    printf("%d - enter width: ", getpid());
     if (scanf("%lf", &b) != 1) {
-        printf("%d - Error: некорректный ввод\n", getpid());
+        printf("%d - Error: invalid input\n", getpid());
         return EXIT_FAILURE;
     }
 
     double c;
-    printf("%d - введите высоту прямоугольного параллелепипеда: ", getpid());
+    printf("%d - enter height: ", getpid());
     if (scanf("%lf", &c) != 1) {
-        printf("%d - Error: некорректный ввод\n", getpid());
+        printf("%d - Error: invalid input\n", getpid());
         return EXIT_FAILURE;
     }
 
-    printf("%d - объем прямоугольного параллелепипеда: %lf\n", getpid(), volume(a, b, c));
+    printf("%d - volume of rectangular parallelepiped: %lf\n", getpid(), volume(a, b, c));
 
     return EXIT_SUCCESS;
 }

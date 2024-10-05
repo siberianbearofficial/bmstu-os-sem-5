@@ -10,13 +10,13 @@ double volume(double r)
 
 int main(void) {
     double r;
-    printf("%d - введите радиус сферы: ", getpid());
+    printf("%d - enter radius: ", getpid());
     if (scanf("%lf", &r) != 1) {
-        printf("%d - Error: некорректный ввод\n", getpid());
+        printf("%d - Error: invalid input\n", getpid());
         return EXIT_FAILURE;
     }
 
-    printf("%d - объем сферы: %lf\n", getpid(), volume(r));
+    printf("%d - volume of sphere: %lf\n", getpid(), volume(r));
 
     return EXIT_SUCCESS;
 }
