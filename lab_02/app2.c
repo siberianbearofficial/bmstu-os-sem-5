@@ -12,7 +12,7 @@ int main(void) {
     double r;
     printf("%d - enter radius: ", getpid());
     if (scanf("%lf", &r) != 1) {
-        printf("%d - Error: invalid input\n", getpid());
+        printf("%d - Error: input error\n", getpid());
         return EXIT_FAILURE;
     }
 
