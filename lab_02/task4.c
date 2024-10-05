@@ -34,6 +34,7 @@ int main(void)
         if (child_pid[i] == 0)
         {
             printf("Child: pid = %d, ppid = %d, gid = %d\n", getpid(), getppid(), getpgrp());
+            sleep(i);
             printf("Child (pid: %d) sent message: %s\n", getpid(), messages[i]);
             close(fd[0]);
             write(fd[1], messages[i], strlen(messages[i]));
@@ -42,6 +43,17 @@ int main(void)
         }
 
         printf("Parent. Children id: %d\n", child_pid[i]);
+    }
+
+    for (size_t i = 0; i < COUNT + 1; i++)
+    {
+        char buf[BUFFER_SIZE];
+        for (int j = 0; j < BUFFER_SIZE; j++) {
+            buf[j] = 0;
+        }
+        close(fd[1]);
+        read(fd[0], buf, sizeof(buf));
+        printf("Message received: %s\n", buf);
     }
 
     for (size_t i = 0; i < COUNT; i++)
@@ -61,16 +73,6 @@ int main(void)
         {
             printf("Child (pid: %d) received signal %d\n", child_pid[i], WSTOPSIG(status));
         }
-    }
-
-    printf("Messages from children: \n");
-
-    for (size_t i = 0; i < COUNT; i++)
-    {
-        char buf[BUFFER_SIZE];
-        close(fd[1]);
-        read(fd[0], buf, strlen(messages[i]));
-        printf("%s\n", buf);
     }
 
     return EXIT_SUCCESS;
