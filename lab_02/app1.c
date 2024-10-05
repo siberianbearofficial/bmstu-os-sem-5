@@ -11,21 +11,21 @@ int main(void) {
     double a;
     printf("%d - введите длину прямоугольного параллелепипеда: ", getpid());
     if (scanf("%lf", &a) != 1) {
-        printf("Error: некорректный ввод\n");
+        printf("%d - Error: некорректный ввод\n", getpid());
         return EXIT_FAILURE;
     }
 
     double b;
     printf("%d - введите ширину прямоугольного параллелепипеда: ", getpid());
     if (scanf("%lf", &b) != 1) {
-        printf("Error: некорректный ввод\n");
+        printf("%d - Error: некорректный ввод\n", getpid());
         return EXIT_FAILURE;
     }
 
     double c;
     printf("%d - введите высоту прямоугольного параллелепипеда: ", getpid());
     if (scanf("%lf", &c) != 1) {
-        printf("Error: некорректный ввод\n");
+        printf("%d - Error: некорректный ввод\n", getpid());
         return EXIT_FAILURE;
     }
 

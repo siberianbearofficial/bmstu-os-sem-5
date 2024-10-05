@@ -12,7 +12,7 @@ int main(void) {
     double r;
     printf("%d - введите радиус сферы: ", getpid());
     if (scanf("%lf", &r) != 1) {
-        printf("Error: некорректный ввод\n");
+        printf("%d - Error: некорректный ввод\n", getpid());
         return EXIT_FAILURE;
     }
 
