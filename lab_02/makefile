@@ -1,5 +1,5 @@
 help:
-	echo "Используйте цели task1, task2, task3, task4 или clean."
+	echo "Используйте цели task1, task2, task3, task4, task5 или clean."
 
 all: help
 
@@ -20,6 +20,9 @@ task3: app1 app2 task3.c
 
 task4: task4.c
 	gcc task4.c -o task4.out
+
+task5: task5.c
+	gcc task5.c -o task5.out
 
 clean:
 	rm -rf *.out
