@@ -14,12 +14,35 @@
 #include <sys/resource.h>
 #include <sys/stat.h>
 
+#define CONFFILE "/etc/my_daemon.conf"
 #define LOCKFILE "/var/run/my_daemon.pid"
 #define LOCKMODE (S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH)
 
 #define SLEEP_TIME 10
 
 sigset_t mask;
+
+void reread()
+{
+    FILE *fp;
+    char username[64];
+    int userID;
+    fp = fopen(CONFFILE, "r");
+    if (fp == NULL) {
+        syslog(LOG_ERR, "unable to open configuration file: %s", strerror(errno));
+    } else {
+        fscanf(fp, "username = %s\n", username);
+        fscanf(fp, "userID = %d", &userID);
+        fclose(fp);
+        syslog(LOG_INFO, "Configuration read: username = %s, userID = %d", username, userID);
+        if (userID > 0) {
+            if (setuid(userID) == -1)
+                syslog(LOG_ERR, "Failed to set userID to %d: %s", userID, strerror(errno));
+            else
+                syslog(LOG_INFO, "Successfully set userID to %d", userID);
+        }
+    }
+}
 
 int lockfile(int fd)
 {
@@ -58,7 +81,7 @@ int already_running(void)
     }
 
     ftruncate(fd, 0);
-    sprintf(buf, "%ld", (long)getpid());
+    sprintf(buf, "%ld", (long) getpid());
     write(fd, buf, strlen(buf) + 1);
 
     return 0;
@@ -92,7 +115,8 @@ void daemonize(const char *cmd)
         exit(EXIT_SUCCESS);
     }
 
-    if (setsid() == -1) {
+    if (setsid() == -1)
+    {
         printf("%s: setsid function call error", cmd);
     }
 
@@ -145,7 +169,8 @@ void *thr_fn(void *arg)
         switch (signumb)
         {
             case SIGHUP:
-                syslog(LOG_INFO, "Signal SIGHUP received");
+                syslog(LOG_INFO, "Reading config file.");
+                reread();
                 break;
             case SIGTERM:
                 syslog(LOG_INFO, "Signal SIGTERM received. Exiting");
@@ -185,7 +210,8 @@ int main(void)
 
     sigfillset(&mask);
 
-    if ((err = pthread_sigmask(SIG_BLOCK, &mask, NULL)) != 0) {
+    if ((err = pthread_sigmask(SIG_BLOCK, &mask, NULL)) != 0)
+    {
         printf("Cannot block signals");
         exit(err);
     }
