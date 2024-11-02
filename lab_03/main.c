@@ -22,26 +22,43 @@
 
 sigset_t mask;
 
-void reread()
+void reread(void)
 {
-    FILE *fp;
-    char username[64];
-    int userID;
-    fp = fopen(CONFFILE, "r");
-    if (fp == NULL) {
+    int fd;
+    long uid;
+    char uname[128];
+    char buf[128];
+
+    fd = open(CONFFILE, O_RDONLY);
+    if (fd == -1)
+    {
         syslog(LOG_ERR, "unable to open configuration file: %s", strerror(errno));
-    } else {
-        fscanf(fp, "username = %s\n", username);
-        fscanf(fp, "userID = %d", &userID);
-        fclose(fp);
-        syslog(LOG_INFO, "Configuration read: username = %s, userID = %d", username, userID);
-        if (userID > 0) {
-            if (setuid(userID) == -1)
-                syslog(LOG_ERR, "Failed to set userID to %d: %s", userID, strerror(errno));
-            else
-                syslog(LOG_INFO, "Successfully set userID to %d", userID);
-        }
+        return;
     }
+
+    ssize_t rbytes = read(fd, buf, 128 - 1);
+    if (rbytes == -1)
+    {
+        syslog(LOG_ERR, "unable to read configuration file: %s", CONFFILE);
+        close(fd);
+        return;
+    }
+
+    buf[rbytes] = '\0';
+
+    if (sscanf(buf, "%ld %s", &uid, uname) == 2)
+    {
+        syslog(LOG_INFO, "Configuration read: username = %s, userID = %ld", uname, uid);
+
+        if (setuid(uid) == -1)
+            syslog(LOG_ERR, "Failed to set userID to %ld: %s", uid, strerror(errno));
+        else
+            syslog(LOG_INFO, "Successfully set userID to %ld", uid);
+    }
+    else
+        syslog(LOG_ERR, "unable to read configuration file: %s", CONFFILE);
+
+    close(fd);
 }
 
 int lockfile(int fd)
