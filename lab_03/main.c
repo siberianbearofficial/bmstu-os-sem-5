@@ -203,6 +203,7 @@ void *thr_fn(void *arg)
 int main(void)
 {
     time_t cur_time;
+    struct tm *tinfo;
     int err;
     pthread_t tid;
     struct sigaction sa;
@@ -211,7 +212,7 @@ int main(void)
 
     if (already_running() != 0)
     {
-        syslog(LOG_ERR, "my_daemon has already running.\n");
+        syslog(LOG_ERR, "my_daemon is already running.\n");
         exit(EXIT_FAILURE);
     }
 
@@ -242,8 +243,9 @@ int main(void)
 
     for (;;)
     {
-        cur_time = time(NULL);
-        syslog(LOG_NOTICE, "Time: %s", ctime(&cur_time));
+        time(&cur_time);
+        tinfo = localtime(&cur_time);
+        syslog(LOG_NOTICE, "Time: %.2d:%.2d:%.2d\n", tinfo->tm_hour, tinfo->tm_min, tinfo->tm_sec);
         sleep(SLEEP_TIME);
     }
 
