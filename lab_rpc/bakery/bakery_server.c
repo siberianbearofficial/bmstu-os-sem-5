@@ -15,6 +15,19 @@ static bool choosing[MAX_CLIENT_COUNT] = {false};
 static int numbers[MAX_CLIENT_COUNT] = {0};
 static int max_index = 0;
 
+int index_of(int number)
+{
+    for (int i = 0; i < MAX_CLIENT_COUNT; i++)
+    {
+        if (numbers[i] == number)
+        {
+            return i;
+        }
+    }
+
+    return -1;
+}
+
 double process(struct REQUEST *request)
 {
     sleep(rand() % 4 + 1);
@@ -42,15 +55,7 @@ service_proc_1_svc(struct REQUEST *argp, struct svc_req *rqstp)
 {
     static double result;
 
-    int index = -1;
-    for (int i = 0; i < MAX_CLIENT_COUNT; i++)
-    {
-        if (numbers[i] == argp->number)
-        {
-            index = i;
-            break;
-        }
-    }
+    int index = index_of(argp->number);
 
     for (int i = 0; i < MAX_CLIENT_COUNT; i++) {
         while (choosing[i]) {}
