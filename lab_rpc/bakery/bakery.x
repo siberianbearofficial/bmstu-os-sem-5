@@ -17,11 +17,11 @@ struct REQUEST
 };
 
 program SERVICE_PROG
-    {
-        version SERVICE_VER
+{
+    version SERVICE_VER
     {
         double SERVICE_PROC(struct REQUEST) = 1;
         int NUMBER_PROC(void) = 2;
     } = 1; /* Version number = 1 */
-    }
+}
 = 0x20000001; /* RPC program number */
