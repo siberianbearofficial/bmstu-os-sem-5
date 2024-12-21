@@ -42,12 +42,6 @@ service_proc_1_svc(struct REQUEST *argp, struct svc_req *rqstp)
 {
     static double result;
 
-    for (int i = 1; i < MAX_CLIENT_COUNT; i++) {
-        while (numbers[i] != 0 && numbers[i] < argp->number) {}
-    }
-
-    result = process(argp);
-
     int index = -1;
     for (int i = 0; i < MAX_CLIENT_COUNT; i++)
     {
@@ -57,6 +51,13 @@ service_proc_1_svc(struct REQUEST *argp, struct svc_req *rqstp)
             break;
         }
     }
+
+    for (int i = 0; i < MAX_CLIENT_COUNT; i++) {
+        while (choosing[i]) {}
+        while (numbers[i] != 0 && (numbers[i] < argp->number || (numbers[i] == argp->number && i < index))) {}
+    }
+
+    result = process(argp);
 
     numbers[index] = 0;
 
