@@ -60,8 +60,6 @@ service_proc_1_svc(struct REQUEST *argp, struct svc_req *rqstp)
 
     numbers[index] = 0;
 
-    printf("[service] num: %d, ind: %d\n", argp->number, index);
-
     return &result;
 }
 
@@ -81,8 +79,6 @@ number_proc_1_svc(void *argp, struct svc_req *rqstp)
     numbers[max_index] = ++number;
     choosing[max_index] = false;
     max_index++;
-
-    printf("[number] %d\n", number);
 
     return &number;
 }
